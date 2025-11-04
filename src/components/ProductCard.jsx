@@ -1,4 +1,3 @@
-import React from "react";
 import camera from "../assets/camera4.jpg";
 import lap from "../assets/laptop.jpg";
 import tv from "../assets/tv.jpg"

@@ -1,10 +1,11 @@
 import axios from 'axios';
-import React , {useEffect, useState} from 'react'
+import {useEffect, useState} from 'react';
 
 function Jewellery() {
 
 
     const [data, setData] = useState([]);
+    
     useEffect(() => {
       const datas = async () => {
         const res = await axios.get("https://fakestoreapi.com/products/category/jewelery");
@@ -18,7 +19,7 @@ function Jewellery() {
   return (
     <>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 pt-8">
-  {data.map((item, index) => (
+  {data.map((item ,index) => (
     <div 
       key={item.id} 
       className="bg-gray-200 w-full rounded-2xl py-8 flex flex-col items-center"

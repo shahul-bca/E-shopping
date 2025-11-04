@@ -9,8 +9,9 @@ import Footer from "./components/Footer";
 import SignIn from "./pages/SignIn";
 import Nav from "./components/Nav";
 import Store from "./pages/Store"
-import Jewellery from "./components/Jewellery";
+// import Jewellery from "./components/Jewellery";
 function App() {
+
   
   return (
     <>

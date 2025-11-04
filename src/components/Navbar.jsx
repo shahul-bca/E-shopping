@@ -1,5 +1,5 @@
 import { AlignJustify } from "lucide-react";
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/Logo2.png";
 import { Link } from "react-router-dom";
 const Navbar = () => {

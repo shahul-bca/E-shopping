@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 const Products = ({ category }) => {
   const [data, setData] = useState([]);
-  console.log(category);
+  // console.log(category);
   useEffect(() => {
     const datas = async () => {
       if (category === "all") {

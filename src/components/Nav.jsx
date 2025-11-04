@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from '../assets/Logo2.png'
 import { Link } from "react-router-dom";
 
@@ -75,9 +75,9 @@ const Navbar = () => {
           <div className="hidden md:flex">
             <Link
               to="login"
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700"
+              className="bg-black text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-700"
             >
-              Login
+              Cart
             </Link>
           </div>
         </div>
@@ -110,10 +110,10 @@ const Navbar = () => {
               AboutUs
             </Link>
             <Link
-              to="login"
-              className="block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium mt-2 hover:bg-blue-700 "
+              to="cart"
+              className="block bg-black-400 text-white px-4 py-2 rounded-lg text-sm font-medium mt-2 hover:bg-blue-700 "
             >
-              Login
+              Cart
             </Link>
           </div>
         )}
